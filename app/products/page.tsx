@@ -398,6 +398,8 @@ export default function ProductsPage() {
                     <Image
                       src={product.image || "/placeholder.svg"}
                       alt={product.name}
+                      width={400}
+                      height={192}
                       style={
                         product.name.includes("P30i")
                           ? { width: "100%", height: "100%", objectFit: "contain" }

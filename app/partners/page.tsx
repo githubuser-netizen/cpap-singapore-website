@@ -251,9 +251,9 @@ export default function PartnersPage() {
                     <Image
                       src={partner.logo || "/placeholder.svg"}
                       alt={`${partner.name} logo`}
-                      width={partner.name === "SM Haneefa Clinic" ? undefined : partner.name === "Dr Ronnie Yap, Orchard Scotts Dental" ? 135 : partner.name === "Dr Nieh Chi Chiang, Alpaca Health Singapore" ? 172.5 : 150}
-                      height={partner.name === "SM Haneefa Clinic" ? undefined : partner.name === "Dr Ronnie Yap, Orchard Scotts Dental" ? 54 : partner.name === "Dr Nieh Chi Chiang, Alpaca Health Singapore" ? 69 : 60}
-                      style={partner.name === "SM Haneefa Clinic" ? { width: "112.5px", height: "45px", objectFit: "contain" } : {}}
+                      width={partner.name === "SM Haneefa Clinic" ? 112.5 : partner.name === "Dr Ronnie Yap, Orchard Scotts Dental" ? 135 : partner.name === "Dr Nieh Chi Chiang, Alpaca Health Singapore" ? 172.5 : 150}
+                      height={partner.name === "SM Haneefa Clinic" ? 45 : partner.name === "Dr Ronnie Yap, Orchard Scotts Dental" ? 54 : partner.name === "Dr Nieh Chi Chiang, Alpaca Health Singapore" ? 69 : 60}
+                      style={partner.name === "SM Haneefa Clinic" ? { objectFit: "contain" } : {}}
                       className="object-contain"
                     />
                   </div>
